@@ -43,12 +43,6 @@ a {
   color: var(--link-color);
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 ::-moz-selection {
   color: var(--wpe--color--white);
   background-color: var(--wpe--color--accent);
@@ -167,4 +161,10 @@ img {
     text-decoration: underline;
     cursor: pointer;
   }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }

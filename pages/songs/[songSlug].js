@@ -4,7 +4,6 @@ import { gql, useQuery } from '@apollo/client'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 import Layout from '../../components/Layout'
-import { useEffect } from 'react'
 
 const GET_SONG_DETAILS = gql`
   query GetSongDetails($songSlug: ID!) {
