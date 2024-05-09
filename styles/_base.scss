@@ -79,11 +79,11 @@ a {
     &:hover {
       opacity: 0.8;
     }
-    & > img {
-      object-fit: cover;
-      width: 100%;
-      height: auto;
-    }
+  }
+  &__image {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
   }
 }
 
