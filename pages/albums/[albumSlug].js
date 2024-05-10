@@ -46,6 +46,15 @@ export default function Album() {
 
   if (loading) return <p>Loading...</p>
   if (error) return <p>Error! {error.message}</p>
+  if (!albumData)
+    return (
+      <>
+        <Link href="/albums">
+          <p className="return-link">&#x2190; View All Albums</p>
+        </Link>
+        <p className="album">Album not found. Please check the URL</p>
+      </>
+    )
 
   return (
     <Layout>
